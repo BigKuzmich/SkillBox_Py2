@@ -1,0 +1,7 @@
+print('Задача 2. Финансовый отчёт')
+quarter1 = int(input('Доход за первый квартал: '))
+quarter2 = int(input('Доход за второй квартал: '))
+quarter3 = int(input('Доход за третий квартал: '))
+quarter4 = int(input('Доход за четвертый квартал: '))
+report = ((quarter1 + quarter2) / (quarter3 + quarter4))
+print(report)
